@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 @Getter
 @Table(name = "floors")
 @Entity
-public class floor {
+public class Floor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
